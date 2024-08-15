@@ -126,6 +126,15 @@ body {
   color: #fff;
 }
 
+.hover {
+  display: none;
+}
+
+.news-content-text:hover .hover {
+  position: relative;
+  display: inline-block;
+}
+
 /* Sidebar Styles */
 .profiles {
   max-width: 260px;
@@ -262,6 +271,10 @@ body {
 
   .news-content:first-child {
     padding-right: 10px;
+  }
+
+  .news-content-text:hover .news-content-title {
+    top: 90px;
   }
 
   /* Sidebar Styles */
